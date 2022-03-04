@@ -3,11 +3,19 @@
     padding: 0;
     margin: 0;
 }
-
+/* All */
 body {
     background-color: #d9dcd6;
 }
+ 
+ a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
+p {
+    font-size: 16px;
+}
 /* Header */
 .header {
     padding: 20px;
@@ -35,17 +43,9 @@ body {
     margin-left: 25px;
     list-style: none;
 }
- /* All */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
 
-/* Hero and images within */
+/* Hero Begins */
 .hero {
     height: 800px;
     width: 100%;
@@ -69,6 +69,25 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/* Center rows */
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'Sans-Serif';
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.services img {
+    max-height: 200px;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /* Side column*/
@@ -98,26 +117,6 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* Center rows */
-.services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'Sans-Serif';
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.services img {
-    max-height: 200px;
-}
-
-.services h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /*Footer*/
 .footer {
     padding: 30px;
